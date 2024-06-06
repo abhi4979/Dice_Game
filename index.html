@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        h1 {
+            font-family: 'Tangerine', serif;
+            font-size: 138px;
+        }
+
+        @keyframes fireAnimation {
+            0% { color: #ff0000; }
+            60% { color: #d70ecd; }
+            100% { color: #ff0000; }
+        }
+
+        h1.fire-text {
+            font-size: 124px;
+            font-family: 'Tangerine', serif;
+            animation: fireAnimation 1s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="fire-text">Refresh Me</h1>
+         
+        <div class="dice">
+                 
+            <p>Player 1</p>
+             <img class="img" src="images/dice6.png"> 
+        </div>
+        <div class="dice">
+            <p>Player 2</p>
+              <img class="img-crown" src="images/dice6.png">  
+        </div>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+    <!-- Move the footer inside the body -->
+    <footer></footer>
+</body>
+</html>

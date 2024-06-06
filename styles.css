@@ -1,0 +1,41 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-image: url("images/9CJSiT8.jpg");
+  }
+  
+  
+  p {
+    font-size: 3rem;
+    color: #f0b513;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+  a1{
+    height:200px;
+  }
+  a2{
+    heiht:200px;
+  }
+  
